@@ -103,6 +103,9 @@
     }
     @include portrait {
       margin: 4rem 0;
+      position: relative;
+      top: unset;
+      left: unset;
     }
   }
 }
