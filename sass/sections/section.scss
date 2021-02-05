@@ -1,5 +1,7 @@
 .section {
+  width: 100%;
   position: relative;
+  overflow: hidden;
   &__wrapper {
     @include wrapper;
     display: flex;

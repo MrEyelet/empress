@@ -1,16 +1,17 @@
-import Swiper from "swiper"
+import Swiper from "swiper/bundle"
 import "swiper/swiper-bundle.css"
 
 class Slider {
   constructor() {
-    console.log("elo constructor")
     this.initSlider()
   }
 
   initSlider() {
-    console.log("elo")
     const swiper = new Swiper(".swiper-container", {
       loop: true,
+      autoplay: {
+        delay: 2500
+      },
       slidesPerView: 3,
       spaceBetween: 30,
       pagination: {

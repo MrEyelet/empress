@@ -3,4 +3,11 @@
     padding: 4rem;
     background: $color-white;
   }
+  .swiper-container {
+    width: 100%;
+    overflow: visible;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -5rem;
+  }
 }
