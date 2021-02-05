@@ -4,11 +4,15 @@
   padding-bottom: 5rem;
   &__wrapper {
     display: flex;
+    flex-wrap: wrap;
   }
   &__col {
     width: 50%;
     img {
       width: 100%;
     }
+  }
+  &--profit {
+    text-align: center;
   }
 }
