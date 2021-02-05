@@ -7,7 +7,7 @@
   border-radius: 4px;
   transition: background-color 0.35s ease-in-out;
   &:hover {
-    background-color: red;
+    background-color: $color-secondary;
     cursor: pointer;
   }
   &--primary {

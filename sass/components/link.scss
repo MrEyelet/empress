@@ -1,0 +1,15 @@
+.link {
+  position: relative;
+  color: $color-brand-primary;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  &::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: $color-secondary;
+  }
+}
