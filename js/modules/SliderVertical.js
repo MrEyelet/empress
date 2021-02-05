@@ -7,7 +7,7 @@ class SliderVertical {
   }
 
   initSlider() {
-    const swiper = new Swiper(".test", {
+    const swiper = new Swiper(".slider--vertical", {
       loop: true,
       direction: "vertical",
       autoplay: {

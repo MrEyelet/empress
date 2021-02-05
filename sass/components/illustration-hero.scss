@@ -1,11 +1,24 @@
 .illustration-hero {
   position: relative;
   right: -6rem;
-  &__ph {
+  @include portrait {
+    right: 0;
+  }
+  &__desc {
+    @include portrait {
+      display: none;
+    }
+  }
+  &__inner {
     width: 20rem;
     position: absolute;
     right: 0;
     bottom: -2rem;
     z-index: $over-content;
+    @include portrait {
+      margin-left: auto;
+      position: relative;
+      bottom: 0;
+    }
   }
 }
