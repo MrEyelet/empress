@@ -1,0 +1,13 @@
+.illustration-hero {
+  &__mac {
+    position: absolute;
+    right: -6rem;
+  }
+  &__ph {
+    width: 20rem;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+    z-index: $over-content;
+  }
+}

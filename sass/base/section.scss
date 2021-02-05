@@ -2,17 +2,17 @@
   @include wrapper;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  position: relative;
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
   }
   &__col {
     width: 50%;
-    img {
-      width: 100%;
-    }
+    position: relative;
   }
-  &--profit {
+  &--profit,
+  &--opinions {
     text-align: center;
   }
 }
