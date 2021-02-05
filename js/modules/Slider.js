@@ -9,13 +9,14 @@ class Slider {
   initSlider() {
     const swiper = new Swiper(".swiper-container", {
       loop: true,
-      autoplay: {
-        delay: 2500
-      },
+      // autoplay: {
+      //   delay: 500
+      // },
       slidesPerView: 3,
       spaceBetween: 30,
       pagination: {
-        el: ".swiper-pagination"
+        el: ".swiper-pagination",
+        clickable: true
       }
     })
   }

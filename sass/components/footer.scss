@@ -1,4 +1,5 @@
 .footer {
+  margin-top: 11rem;
   background-color: $color-light;
   &__wrapper {
     @include wrapper;
@@ -6,6 +7,9 @@
   &__container {
     display: flex;
     justify-content: space-between;
+    @include portrait {
+      flex-direction: column;
+    }
   }
   &__top {
     padding: 4rem 0 3.2rem;
@@ -13,6 +17,9 @@
   }
   &__middle {
     padding: 6.5rem 0 9rem;
+    @include portrait {
+      padding: 3rem 0;
+    }
   }
   &__bottom {
     padding: 4rem 0;
@@ -21,7 +28,13 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        @include portrait {
+          justify-content: flex-start;
+        }
       }
+    }
+    @include portrait {
+      padding: 0;
     }
   }
   &__bottom-img {
@@ -30,6 +43,9 @@
   }
   &__col {
     width: 50%;
+    @include portrait {
+      width: 100%;
+    }
   }
   &__logo-mark {
     width: 5.6rem;
@@ -39,6 +55,9 @@
     .text-title {
       color: $color-brand-primary;
     }
+    @include phablet {
+      flex-direction: column;
+    }
   }
   &__cta,
   &__recomends,
@@ -46,6 +65,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include phablet {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 1.2rem;
+    }
   }
   &__recomends-logo {
     width: 14rem;
@@ -55,10 +80,16 @@
   }
   &__recomends-copy {
     margin: 0 1.2rem;
+    @include phablet {
+      margin: 1.2rem 0;
+    }
   }
   &__social-icon {
     width: 3.2rem;
     margin-left: 1.6rem;
+    @include phablet {
+      margin: 1.2rem 0 0;
+    }
   }
   .nav {
     margin-top: 7.8rem;
@@ -66,6 +97,9 @@
       &:first-of-type {
         margin-left: 0;
       }
+    }
+    @include portrait {
+      margin: 4rem 0;
     }
   }
 }

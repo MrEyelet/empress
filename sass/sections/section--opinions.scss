@@ -1,4 +1,9 @@
 .section--opinions {
   padding: 13rem 0 16rem;
   background-color: $color-light;
+  overflow: hidden;
+  .slider {
+    max-width: 140rem;
+    padding: 0;
+  }
 }
