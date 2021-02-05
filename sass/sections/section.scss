@@ -1,11 +1,11 @@
 .section {
-  @include wrapper;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   position: relative;
   &__wrapper {
+    @include wrapper;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   &__col {
     width: 50%;
