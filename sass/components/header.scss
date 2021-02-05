@@ -6,10 +6,17 @@
     justify-content: space-between;
     padding-top: 4.8rem;
     padding-bottom: 4.8rem;
+    @include portrait {
+      flex-direction: column;
+    }
   }
   &__menu {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    @include portrait {
+      margin-bottom: 3rem;
+    }
   }
   // @include tablet {
   //   text-align: center;
