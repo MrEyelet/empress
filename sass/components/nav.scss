@@ -1,0 +1,11 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+  &__list-el {
+    margin-left: 2.4rem;
+    &:first-of-type {
+      margin-left: 4.8rem;
+    }
+  }
+}
