@@ -7,11 +7,11 @@ class Slider {
   }
 
   initSlider() {
-    const swiper = new Swiper(".swiper-container", {
+    const swiper = new Swiper(".slider--horizontal", {
       loop: true,
-      // autoplay: {
-      //   delay: 500
-      // },
+      autoplay: {
+        delay: 2500
+      },
       slidesPerView: 3,
       spaceBetween: 30,
       pagination: {

@@ -1,11 +1,11 @@
 .illustration-hero {
-  position: absolute;
+  position: relative;
   right: -6rem;
   &__ph {
     width: 20rem;
     position: absolute;
     right: 0;
-    bottom: 4rem;
+    bottom: -2rem;
     z-index: $over-content;
   }
 }

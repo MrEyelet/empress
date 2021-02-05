@@ -34,7 +34,7 @@
       }
     }
     @include portrait {
-      padding: 0;
+      padding: 0 0 4rem 0;
     }
   }
   &__bottom-img {
@@ -93,6 +93,9 @@
   }
   .nav {
     margin-top: 7.8rem;
+    &__list {
+      flex-wrap: wrap;
+    }
     &__list-el {
       &:first-of-type {
         margin-left: 0;

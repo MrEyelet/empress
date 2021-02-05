@@ -2,8 +2,17 @@
   padding: 13rem 0 16rem;
   background-color: $color-light;
   overflow: hidden;
+  .section__wrapper {
+    max-width: 140rem;
+  }
   .slider {
     max-width: 140rem;
     padding: 0;
+  }
+  .swiper-container {
+    overflow: visible;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -12rem;
   }
 }
