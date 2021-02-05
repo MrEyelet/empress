@@ -11,6 +11,9 @@
   &__col {
     width: 50%;
     position: relative;
+    @include phablet {
+      width: 100%;
+    }
   }
   &--profit,
   &--opinions {
