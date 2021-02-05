@@ -4,6 +4,10 @@
     padding: 8rem;
     background-color: $color-brand-primary;
     border-radius: 1.6rem;
+    overflow: hidden;
+  }
+  .swiper-container {
+    max-height: 37rem;
   }
   .btn {
     margin-top: 3.2rem;

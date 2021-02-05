@@ -13,8 +13,8 @@ class SliderVertical {
       autoplay: {
         delay: 2500
       },
-      slidesPerView: 7,
-      spaceBetween: 30
+      slidesPerView: 7
+      // autoHeight: true
     })
   }
 }
