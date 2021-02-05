@@ -9,8 +9,11 @@
     }
   }
   @include portrait {
-    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
     top: 0;
     left: 100%;
+    z-index: $over-all;
   }
 }
