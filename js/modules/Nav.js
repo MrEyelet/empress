@@ -6,8 +6,9 @@ class Nav {
   }
 
   toggleNav() {
-    this.burger.addEventListener("click", () => {
+    this.burger.addEventListener("click", e => {
       this.mobileNav.classList.toggle("is-visible")
+      e.target.classList.toggle("open")
     })
   }
 }

@@ -15,6 +15,7 @@
     left: 0;
     top: 0;
     background-color: $color-dark;
+    transition: transform 0.2s ease-in-out;
   }
   &::after {
     top: unset;
@@ -25,5 +26,13 @@
   }
   @include portrait {
     display: block;
+  }
+  &.open {
+    &::before {
+      transform: rotate(25deg) translate(3px, 7px);
+    }
+    &::after {
+      transform: rotate(-25deg) translate(2px, -4px);
+    }
   }
 }
