@@ -27,7 +27,7 @@
   @include portrait {
     display: block;
   }
-  &.open {
+  &.is-open {
     &::before {
       transform: rotate(25deg) translate(3px, 7px);
     }

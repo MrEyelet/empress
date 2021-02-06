@@ -1,15 +1,29 @@
 .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   &__list {
     display: flex;
+    @include portrait {
+      flex-direction: column;
+    }
   }
   &__list-el {
     margin-left: 2.4rem;
+    @include portrait {
+      margin-left: 0;
+    }
     &:first-of-type {
       margin-left: 4.8rem;
+      @include portrait {
+        margin-left: 0;
+      }
     }
   }
   @include portrait {
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -19,6 +33,11 @@
     transition: transform 0.35s ease-in;
     &.is-visible {
       transform: translateX(-100%);
+    }
+  }
+  .btn {
+    @include portrait {
+      margin-top: 3rem;
     }
   }
 }
