@@ -6,7 +6,7 @@ class Accordion {
 
   toggleAccordion() {
     for (let i = 0; i < this.accBtn.length; i++) {
-      this.accBtn[i].addEventListener("click", () => {
+      this.accBtn[i].addEventListener("click", function () {
         this.classList.toggle("active")
         var panel = this.nextElementSibling
         if (panel.style.maxHeight) {

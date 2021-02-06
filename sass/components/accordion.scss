@@ -35,4 +35,7 @@
     transition: transform 0.2s ease-out;
     transform-origin: center center;
   }
+  @include portrait {
+    margin-top: 3rem;
+  }
 }

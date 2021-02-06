@@ -3,6 +3,20 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  @include portrait {
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: $over-all;
+    background-color: $color-light;
+    transition: transform 0.35s ease-in;
+    &.is-visible {
+      transform: translateX(-100%);
+    }
+  }
   &__list {
     display: flex;
     @include portrait {
@@ -23,20 +37,6 @@
         margin-left: 0;
         margin-top: 0;
       }
-    }
-  }
-  @include portrait {
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 100%;
-    z-index: $over-all;
-    background-color: $color-white;
-    transition: transform 0.35s ease-in;
-    &.is-visible {
-      transform: translateX(-100%);
     }
   }
   .btn {

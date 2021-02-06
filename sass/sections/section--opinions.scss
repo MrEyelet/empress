@@ -3,16 +3,27 @@
   background-color: $color-light;
   overflow: hidden;
   .section__wrapper {
+    justify-content: center;
     max-width: 140rem;
+    @include portrait {
+      max-width: 100%;
+    }
   }
   .slider {
     max-width: 140rem;
     padding: 0;
+    @include portrait {
+      max-width: 100%;
+    }
   }
   .swiper-container {
     overflow: visible;
   }
   .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -12rem;
+  }
+  .swiper-pagination-bullet-active {
+    width: 2.6rem;
+    border-radius: 8px;
   }
 }
