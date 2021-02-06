@@ -50,15 +50,6 @@
   &__logo-mark {
     width: 5.6rem;
   }
-  &__lists {
-    display: flex;
-    .text-title {
-      color: $color-brand-primary;
-    }
-    @include phablet {
-      flex-direction: column;
-    }
-  }
   &__cta,
   &__recomends,
   &__social {
@@ -91,23 +82,25 @@
       margin: 1.2rem 0 0;
     }
   }
-  .nav {
+  &__nav {
     margin-top: 7.8rem;
-    &__list {
-      flex-wrap: wrap;
-    }
-    &__list-el {
-      &:first-of-type {
-        margin-left: 0;
-      }
-    }
     @include portrait {
       margin: 4rem 0;
-      height: auto;
-      width: auto;
-      position: relative;
-      top: unset;
-      left: unset;
+    }
+  }
+  &__nav-list {
+    flex-wrap: wrap;
+  }
+  &__nav-list-el {
+    margin-right: 3rem;
+  }
+  &__lists {
+    display: flex;
+    .text-title {
+      color: $color-brand-primary;
+    }
+    @include phablet {
+      flex-direction: column;
     }
   }
 }
