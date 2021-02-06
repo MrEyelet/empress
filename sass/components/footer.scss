@@ -89,6 +89,7 @@
     }
   }
   &__nav-list {
+    display: flex;
     flex-wrap: wrap;
   }
   &__nav-list-el {
