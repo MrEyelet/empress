@@ -1,6 +1,29 @@
 .box {
   width: 33.33%;
   text-align: center;
+  &:nth-of-type(n + 4) {
+    margin-top: 13rem;
+  }
+  @include portrait {
+    width: 50%;
+    &:nth-of-type(n + 3) {
+      margin-top: 13rem;
+    }
+  }
+  @include phablet {
+    width: 100%;
+    &:nth-of-type(n + 2) {
+      margin-top: 13rem;
+    }
+  }
+  &__title {
+    margin: 4rem auto 0.5rem;
+  }
+  &__desc {
+    max-width: 35rem;
+    width: 100%;
+    margin: 0 auto;
+  }
   &__icon {
     width: 6.4rem;
     margin: 0 auto;

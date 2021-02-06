@@ -1,7 +1,11 @@
 .accordion {
+  &_el {
+    margin-bottom: 2rem;
+  }
   &__trigger {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 3rem;
     text-align: left;
@@ -22,13 +26,18 @@
       cursor: pointer;
     }
   }
+  &__title {
+    width: 50rem;
+    letter-spacing: 0.9px;
+  }
   &__panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
   &__content {
-    padding: 3rem;
+    width: 55.5rem;
+    padding: 0 3rem 3rem;
   }
   &__ic {
     width: 1.2rem;

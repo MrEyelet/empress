@@ -1,13 +1,23 @@
 .section--cta {
   color: $color-white;
   .section__wrapper {
-    padding: 8rem;
-    background-color: $color-brand-primary;
-    border-radius: 1.6rem;
     overflow: hidden;
+  }
+  .section__col {
+    background-color: $color-brand-primary;
+    &:nth-of-type(1) {
+      padding: 8rem;
+      @include phablet {
+        padding: 3rem;
+      }
+    }
   }
   .swiper-container {
     max-height: 37rem;
+    margin-left: 12rem;
+    @include phablet {
+      margin-left: 3rem;
+    }
   }
   .btn {
     margin-top: 3.2rem;
