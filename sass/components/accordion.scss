@@ -1,0 +1,21 @@
+.accordion {
+  &__trigger {
+    width: 100%;
+    padding: 3rem;
+    text-align: left;
+    background-color: $color-brand-primary;
+    color: $color-white;
+    border: none;
+    outline: none;
+    &.active {
+      background-color: $color-white;
+      color: $color-brand-primary;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__panel {
+    padding: 3rem;
+  }
+}
