@@ -8,7 +8,6 @@ class Nav {
   toggleNav() {
     this.burger.addEventListener("click", () => {
       this.mobileNav.classList.toggle("is-visible")
-      console.log("click")
     })
   }
 }

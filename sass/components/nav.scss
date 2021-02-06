@@ -15,6 +15,7 @@
     top: 0;
     left: 100%;
     z-index: $over-all;
+    background-color: $color-white;
     transition: transform 0.35s ease-in;
     &.is-visible {
       transform: translateX(-100%);
