@@ -29,10 +29,10 @@
   }
   &.is-open {
     &::before {
-      transform: rotate(25deg) translate(3px, 7px);
+      transform: rotate(45deg) translate(3px, 7px);
     }
     &::after {
-      transform: rotate(-25deg) translate(2px, -4px);
+      transform: rotate(-45deg) translate(2px, -5px);
     }
   }
 }

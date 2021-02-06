@@ -1,6 +1,9 @@
 .footer {
   margin-top: 11rem;
   background-color: $color-light;
+  @include portrait {
+    margin-top: 6rem;
+  }
   &__wrapper {
     @include wrapper;
   }
@@ -12,17 +15,17 @@
     }
   }
   &__top {
-    padding: 4rem 0 3.2rem;
+    padding: 4.5rem 0 3.2rem;
     border-bottom: 1px solid $color-dark-opacity;
   }
   &__middle {
-    padding: 6.5rem 0 9rem;
+    padding: 5.8rem 0 9rem;
     @include portrait {
       padding: 3rem 0;
     }
   }
   &__bottom {
-    padding: 4rem 0;
+    padding: 7rem 0;
     .footer__col {
       &:nth-of-type(2) {
         display: flex;
@@ -45,6 +48,15 @@
     width: 50%;
     @include portrait {
       width: 100%;
+    }
+  }
+  &__col-text {
+    max-width: 43rem;
+    width: 100%;
+  }
+  &__col-inner {
+    &:nth-of-type(2) {
+      margin-left: 7rem;
     }
   }
   &__logo-mark {
@@ -83,7 +95,7 @@
     }
   }
   &__nav {
-    margin-top: 7.8rem;
+    margin-top: 6.5rem;
     @include portrait {
       margin: 4rem 0;
     }

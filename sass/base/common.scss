@@ -16,6 +16,9 @@ body {
     font-size: 1.4rem;
     line-height: 1.6rem;
   }
+  &.is-blocked {
+    overflow-y: hidden;
+  }
 }
 a {
   text-decoration: none;

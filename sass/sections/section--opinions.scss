@@ -1,5 +1,8 @@
 .section--opinions {
   padding: 14rem 0 16rem;
+  @include portrait {
+    padding: 7rem 0 12rem;
+  }
   background-color: $color-light;
   overflow: hidden;
   .section__wrapper {

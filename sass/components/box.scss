@@ -6,14 +6,17 @@
   }
   @include portrait {
     width: 50%;
+    &:nth-of-type(n + 4) {
+      margin-top: 5rem;
+    }
     &:nth-of-type(n + 3) {
-      margin-top: 13rem;
+      margin-top: 5rem;
     }
   }
   @include phablet {
     width: 100%;
     &:nth-of-type(n + 2) {
-      margin-top: 13rem;
+      margin-top: 5rem;
     }
   }
   &__title {
