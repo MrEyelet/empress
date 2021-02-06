@@ -103,6 +103,8 @@
     }
     @include portrait {
       margin: 4rem 0;
+      height: auto;
+      width: auto;
       position: relative;
       top: unset;
       left: unset;

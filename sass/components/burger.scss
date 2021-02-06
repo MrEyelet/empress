@@ -1,5 +1,7 @@
 .burger {
   display: none;
+  position: relative;
+  z-index: $over-all;
   @include portrait {
     display: block;
   }
