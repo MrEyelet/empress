@@ -1,5 +1,9 @@
 .section--cta {
+  padding-bottom: 11rem;
   color: $color-white;
+  @include phablet {
+    padding-bottom: 0;
+  }
   .section__wrapper {
     overflow: hidden;
     @include phablet {
@@ -13,7 +17,7 @@
       border-top-left-radius: 1.6rem;
       border-bottom-left-radius: 1.6rem;
       @include portrait {
-        padding: 3rem;
+        padding: 3rem 0;
       }
     }
     &:nth-of-type(2) {
@@ -25,7 +29,7 @@
     max-height: 37rem;
     padding: 0 0 0 12rem;
     @include portrait {
-      padding: 0 2rem 2rem 2rem;
+      padding: 0 0 3rem 0;
     }
   }
   .btn {

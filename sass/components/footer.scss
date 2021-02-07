@@ -1,8 +1,11 @@
 .footer {
-  margin-top: 11rem;
+  position: sticky;
+  bottom: 0;
+  z-index: $below-content;
   background-color: $color-light;
-  @include portrait {
-    margin-top: 6rem;
+  @include phablet {
+    position: relative;
+    bottom: unset;
   }
   &__wrapper {
     @include wrapper;
