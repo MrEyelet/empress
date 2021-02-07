@@ -47,20 +47,44 @@
   &--icon {
     display: flex;
     align-items: center;
+    padding-right: 0.5rem;
+    &:hover {
+      .btn--icon__dot {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
     &__box {
       display: flex;
       align-items: center;
+      justify-content: center;
       height: 100%;
-      padding-left: 1rem;
-      margin-left: 1rem;
+      width: 5.6rem;
+      margin-left: 2rem;
       border-left: 1px solid $color-dimmed;
     }
     &__dot {
-      display: block;
-      width: 3rem;
-      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.7rem;
+      height: 2.7rem;
+      position: relative;
       border-radius: 100%;
       border: 2px solid $color-white;
+      &::before {
+        content: "";
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: $color-white;
+        border-radius: 100%;
+        opacity: 0;
+        transition: opacity 0.35s ease-in-out;
+        // position: absolute;
+        // left: 50%;
+        // top: 50%;
+      }
     }
   }
 }

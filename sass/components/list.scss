@@ -1,5 +1,8 @@
 .list {
   &__el {
     margin-top: 2.3rem;
+    @include portrait {
+      margin-top: 1rem;
+    }
   }
 }

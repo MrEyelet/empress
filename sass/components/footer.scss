@@ -15,11 +15,11 @@
     }
   }
   &__top {
-    padding: 4.5rem 0 3.2rem;
+    padding: 4.5rem 0 2rem;
     border-bottom: 1px solid $color-dark-opacity;
   }
   &__middle {
-    padding: 5.8rem 0 9rem;
+    padding: 6.2rem 0 9rem;
     @include portrait {
       padding: 3rem 0;
     }
@@ -35,6 +35,9 @@
           justify-content: flex-start;
         }
       }
+    }
+    .link {
+      font-size: 1.4rem;
     }
     @include portrait {
       padding: 0 0 4rem 0;
@@ -57,6 +60,10 @@
   &__col-inner {
     &:nth-of-type(2) {
       margin-left: 7rem;
+      @include phablet {
+        margin-left: 0;
+        margin-top: 4rem;
+      }
     }
   }
   &__logo-mark {

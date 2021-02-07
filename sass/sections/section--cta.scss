@@ -2,21 +2,30 @@
   color: $color-white;
   .section__wrapper {
     overflow: hidden;
+    @include phablet {
+      background-color: $color-brand-primary;
+    }
   }
   .section__col {
     background-color: $color-brand-primary;
     &:nth-of-type(1) {
-      padding: 8rem;
-      @include phablet {
+      padding: 8rem 0 8rem 8rem;
+      border-top-left-radius: 1.6rem;
+      border-bottom-left-radius: 1.6rem;
+      @include portrait {
         padding: 3rem;
       }
+    }
+    &:nth-of-type(2) {
+      border-top-right-radius: 1.6rem;
+      border-bottom-right-radius: 1.6rem;
     }
   }
   .swiper-container {
     max-height: 37rem;
-    margin-left: 12rem;
-    @include phablet {
-      margin-left: 3rem;
+    padding: 0 0 0 12rem;
+    @include portrait {
+      padding: 0 2rem 2rem 2rem;
     }
   }
   .btn {
