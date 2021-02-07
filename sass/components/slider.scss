@@ -72,6 +72,7 @@
     }
   }
   &--vertical {
+    pointer-events: none;
     &::before,
     &::after {
       content: "";

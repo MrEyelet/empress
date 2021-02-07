@@ -36,7 +36,8 @@
     transition: max-height 0.2s ease-out;
   }
   &__content {
-    width: 55.5rem;
+    max-width: 55.5rem;
+    width: 100%;
     padding: 0 3rem 3rem;
   }
   &__ic {

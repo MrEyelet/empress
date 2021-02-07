@@ -1,5 +1,6 @@
 .btn {
-  padding: 1.8rem 2rem;
+  height: 5.6rem;
+  padding: 0 2.5rem;
   font-family: $heading-font;
   font-weight: 700;
   background-color: $color-brand_primary;
@@ -41,6 +42,25 @@
     &:hover {
       background-color: $color-dimmed;
       border-color: $color-dimmed;
+    }
+  }
+  &--icon {
+    display: flex;
+    align-items: center;
+    &__box {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding-left: 1rem;
+      margin-left: 1rem;
+      border-left: 1px solid $color-dimmed;
+    }
+    &__dot {
+      display: block;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 100%;
+      border: 2px solid $color-white;
     }
   }
 }
