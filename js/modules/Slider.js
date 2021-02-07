@@ -9,9 +9,9 @@ class Slider {
   initSlider() {
     const swiper = new Swiper(".slider--horizontal", {
       loop: true,
-      // autoplay: {
-      //   delay: 2500
-      // },
+      autoplay: {
+        delay: 2500
+      },
       breakpoints: {
         320: {
           slidesPerView: 1,

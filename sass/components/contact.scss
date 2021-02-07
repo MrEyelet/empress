@@ -3,5 +3,8 @@
   margin: 0 auto;
   &__icon {
     width: 16rem;
+    @include portrait {
+      width: 8rem;
+    }
   }
 }

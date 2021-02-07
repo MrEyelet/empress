@@ -113,6 +113,13 @@
   }
   &__nav-list-el {
     margin-right: 3rem;
+    font-weight: 700;
+    a {
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: $color-brand-primary;
+      }
+    }
   }
   &__lists {
     display: flex;

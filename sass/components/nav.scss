@@ -25,6 +25,13 @@
   }
   &__list-el {
     margin-left: 2.6rem;
+    font-weight: 700;
+    a {
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: $color-brand-primary;
+      }
+    }
     @include portrait {
       margin-left: 0;
       margin-top: 2rem;
