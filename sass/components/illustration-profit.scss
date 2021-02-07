@@ -12,7 +12,7 @@
     max-width: 50rem;
     height: 40rem;
   }
-  @include phablet {
+  @include mobile-lg {
     max-width: 28rem;
   }
 }
