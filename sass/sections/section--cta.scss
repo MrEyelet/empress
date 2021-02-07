@@ -23,6 +23,9 @@
     &:nth-of-type(2) {
       border-top-right-radius: 1.6rem;
       border-bottom-right-radius: 1.6rem;
+      @include portrait {
+        padding: 0 0 3rem 0;
+      }
     }
   }
   .swiper-container {

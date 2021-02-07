@@ -12,6 +12,9 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   overflow-x: hidden;
+  &.scroll-disabled {
+    overflow-y: hidden;
+  }
   @include mobile-lg {
     font-size: 1.4rem;
     line-height: 1.6rem;

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="696" height="525" viewBox="0 0 696 525">
   <defs>
-    <rect id="illustration-segment--desktop-b"  x="0" y="0" rx="16"/>
+    <rect id="illustration-segment--desktop-b" width="584" height="413" x="0" y="0" rx="16"/>
     <filter id="illustration-segment--desktop-a" width="134.2%" height="148.4%" x="-13%" y="-16.5%" filterUnits="objectBoundingBox">
       <feOffset dx="24" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"/>
       <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="28"/>

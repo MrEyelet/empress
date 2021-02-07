@@ -6,15 +6,10 @@
     @include wrapper;
     display: flex;
     flex-wrap: wrap;
-    // padding-top: 5rem;
-    // padding-bottom: 5rem;
     @include phablet {
       flex-direction: column;
     }
   }
-  // &__wrapper-inner {
-  //   border-radius: 1.6rem;
-  // }
   &__col {
     width: 50%;
     position: relative;

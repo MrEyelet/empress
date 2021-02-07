@@ -7,7 +7,6 @@ class InView {
   }
 
   appear() {
-    console.log(sal())
     sal({
       once: false
     })
