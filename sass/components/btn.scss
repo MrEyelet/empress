@@ -47,7 +47,7 @@
   &--icon {
     display: flex;
     align-items: center;
-    padding-right: 0.5rem;
+    padding-right: 0;
     &:hover {
       .btn--icon__dot {
         &::before {
@@ -61,8 +61,8 @@
       justify-content: center;
       height: 100%;
       width: 5.6rem;
-      margin-left: 2rem;
-      border-left: 1px solid $color-dimmed;
+      margin-left: 2.4rem;
+      border-left: 1px solid $color-white-opacity;
     }
     &__dot {
       display: flex;
@@ -81,9 +81,6 @@
         border-radius: 100%;
         opacity: 0;
         transition: opacity 0.35s ease-in-out;
-        // position: absolute;
-        // left: 50%;
-        // top: 50%;
       }
     }
   }

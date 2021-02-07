@@ -26,6 +26,7 @@
   &__list-el {
     margin-left: 2.6rem;
     font-weight: 700;
+    will-change: transform, opacity;
     a {
       transition: color 0.3s ease-in-out;
       &:hover {
