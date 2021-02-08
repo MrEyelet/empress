@@ -1,6 +1,8 @@
 .footer {
   position: sticky;
+  left: 0;
   bottom: 0;
+  -webkit-transform: translateZ(0);
   background-color: $color-light;
   @include portrait {
     position: relative;
