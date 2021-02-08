@@ -21,7 +21,6 @@
     bottom: -2rem;
     z-index: $over-content;
     @include portrait {
-      display: none;
       margin: 0 0 0 auto;
       position: relative;
       bottom: 0;

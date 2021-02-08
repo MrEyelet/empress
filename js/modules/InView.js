@@ -7,7 +7,7 @@ class InView {
 
   appear() {
     sal({
-      once: true
+      once: false
     })
   }
 }
