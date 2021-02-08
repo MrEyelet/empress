@@ -9,7 +9,7 @@
   top: 0;
   bottom: 0;
   right: 0;
-  background-color: $color-white;
+  background-color: $color-light;
   overflow: hidden;
   z-index: $over-all;
   &__cover {
@@ -43,7 +43,7 @@
     width: 60%;
     height: 60%;
     border-radius: 50%;
-    background-color: $color-white;
+    background-color: $color-light;
     z-index: 10;
   }
   &__gap {
@@ -54,7 +54,7 @@
     margin: 0 0 0 -2px;
     width: 15rem;
     height: 15rem;
-    background-color: $color-white;
+    background-color: $color-light;
   }
   @keyframes circular {
     from {
