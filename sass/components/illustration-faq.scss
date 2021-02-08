@@ -10,6 +10,7 @@
   @include portrait {
     width: 100%;
     height: 30rem;
+    top: 0;
     left: -3rem;
   }
   @include phablet {
