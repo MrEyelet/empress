@@ -1,0 +1,26 @@
+{
+  "name": "empress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gsap": "^3.6.0",
+    "sal.js": "^0.8.3",
+    "swiper": "^6.4.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEyelet/empress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEyelet/empress/issues"
+  },
+  "homepage": "https://github.com/MrEyelet/empress#readme"
+}

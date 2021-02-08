@@ -3,7 +3,7 @@
   bottom: 0;
   z-index: $below-content;
   background-color: $color-light;
-  @include phablet {
+  @include portrait {
     position: relative;
     bottom: unset;
   }
