@@ -4,6 +4,11 @@
   @include portrait {
     right: 0;
   }
+  &__desc {
+    @include portrait {
+      display: none;
+    }
+  }
   svg {
     @include portrait {
       display: none;

@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     background-color: $color-brand_primary;
-    animation: circular 0.5s infinite ease-out;
+    animation: circular 0.5s infinite;
     @include phablet {
       width: 7rem;
       height: 7rem;
